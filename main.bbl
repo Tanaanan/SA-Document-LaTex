@@ -1,0 +1,21 @@
+\begin{thebibliography}{WTO10}
+
+\bibitem[WTO10]{DBLP:conf/pricai/WanvarieTO10}
+Dittaya Wanvarie, Hiroya Takamura, and Manabu Okumura.
+\newblock Active learning for sequence labelling with probability
+  re-estimation.
+\newblock In Byoung-Tak Zhang and Mehmet~A. Orgun, editors, {\em PRICAI},
+  volume 6230 of {\em Lecture Notes in Computer Science}, pages 681--686,
+  Heidelberg, Germany, 2010. Springer.
+
+\bibitem[{ฑ}57]{thaibib}
+{ฑิตยา หวานวารี}.
+\newblock {\em
+  การใช้~\LaTeX~สําหรับเรียงพิมพ์วิทยานิพนธ์ภาษาไทยและภาษาอังกฤษ
+  โดยใช้รูปแบบของจุฬาลงกรณ์มหาวิทยาลัย}.
+\newblock
+  {ภาควิชาคณิตศาสตร์และวิทยาการคอมพิวเตอร์
+  จุฬาลงกรณ์มหาวิทยาลัย},
+  กรกฎาคม 2557.
+
+\end{thebibliography}

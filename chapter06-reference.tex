@@ -1,0 +1,81 @@
+\chapter{การอ้างอิง}
+\section{การอ้างอิงภายในเอกสาร}
+ป้ายกำกับ (label) มีโครงสร้างดังนี้
+\begin{lstlisting}[numbers=none]
+\label{<label name>}
+\end{lstlisting}
+โดย \lstinline|<label name>| คือชื่อของป้ายกำกับ การใส่ป้ายกำกับลงไปในเอกสารเพื่อใช้อ้างถึงตำแหน่งนั้น ๆ การอ้างอิงถึงบทและตอน (และตอนย่อยหากมี) ของตำแหน่งป้ายกำกับนั้นใช้ป้ายระบุ \lstinline|\ref<label name>| เช่น หากกำหนดป้ายกำกับที่นี่ \lstinline|\label{sample}| \label{sample} การอ้างถึง \lstinline|\ref{sample}| จะได้เป็น \ref{sample} ส่วนการอ้างถึงหน้าที่ตำแหน่งป้ายกำกับนั้นใช้คำสั่ง \lstinline|\pageref{<label name>}| เช่น \lstinline|\pageref{sample}| จะได้ \pageref{sample} และหากป้ายกำกับอยู่ในขอบเขตของรูปภาพและตาราง การอ้างถึงก็จะได้เลขลำดับของรูปภาพและตารางนั้นมา เช่น รูปที่ \ref{Fig:bibtex} อยู่ที่หน้า \pageref{Fig:bibtex} เป็นต้น
+
+\section{บรรณานุกรม}
+\begin{figure}
+	\begin{verbatim}
+@inproceedings{DBLP:conf/pricai/WanvarieTO10,
+	author    = {Dittaya Wanvarie and
+		Hiroya Takamura and
+		Manabu Okumura},
+	title     = {Active Learning for Sequence Labelling
+		with Probability Re-estimation},
+	booktitle = {PRICAI},
+	year      = {2010},
+	pages     = {681-686},
+	ee = {http://dx.doi.org/10.1007/978-3-642-15246-7_69},
+	crossref  = {DBLP:conf/pricai/2010},
+	bibsource = {DBLP, http://dblp.uni-trier.de}
+}
+
+@book{thaibib,
+	author = {{ฑิตยา หวานวารี}},
+	title = {การใช้ \LaTeX สําหรับเรียงพิมพ์วิทยานิพนธ์ภาษาไทยและภาษาอังกฤษ โดยใช้รูปแบบของจุฬาลงกรณ์มหาวิทยาลัย},
+	publisher = {{ภาควิชาคณิตศาสตร์และวิทยาการคอมพิวเตอร์}},
+	month = {กรกฎาคม},
+	year = {2557},
+}
+	\end{verbatim}
+	\caption{ตัวอย่างข้อมูลสำหรับ BibTeX}
+	\label{Fig:bibtex}
+\end{figure}
+Bib\TeX~เป็นโปรแกรมการจัดการรูปแบบเอกสารอ้างอิงที่ทำให้ \LaTeX~ สามารถเรียงพิมพ์ได้สะดวก หากดาวน์โหลดข้อมูลบรรณานุกรมจากเว็บของสำนักพิมพ์ ทางสำนักพิมพ์มักจะอำนวยความสะดวกด้วยการทำรายละเอียดสำหรับ Bib\TeX~ สำหรับบทความแต่ละชิ้นไว้ให้ สามารถคัดลอกไปใช้ได้ทันที เช่น รูปที่~\ref{Fig:bibtex}
+
+ทั้งนี้ ควรตรวจแก้ไขสอบข้อมูลต่าง ๆ ให้ถูกต้องตามรูปแบบที่สิ่งพิมพ์แต่ละชนิดกำหนดด้วย เช่น ชื่อหนังสือ บางวารสารอาจบังคับให้ใช้ชื่อเต็มสำหรับการประชุมวิชาการ ในขณะที่ booktitle ในข้อมูลที่ได้มาเป็นชื่อย่อ ก็ต้องแก้เองให้ถูกต้องด้วย เป็นต้น
+
+%อย่างไรก็ตาม Bib\TeX~ นั้นเป็นโปรแกรมเก่า ซึ่งจะมีปัญหาในการตัดบรรทัดเมื่อใช้กับข้อความที่ไม่ได้ใช้อักขระภาษาอังกฤษ ในเอกสารแก้ปัญหาแบบชั่วคราวด้วยการใช้ \% นำหน้าช่องว่าง เพื่อบอกขอบเขตของคำ ให้โปรแกรมสามารถตัดคำเพื่อขึ้นบรรทัดใหม่ได้อย่างถูกต้อง
+
+การอ้างอิงถึงเอกสารชิ้นต่าง ๆ ในแฟ้มต้นฉบับทำได้โดยคำสั่ง
+\begin{lstlisting}[numbers=none]
+\cite{<cite name>}
+\end{lstlisting}
+
+และเขียนข้อมูลบรรณานุกรมของแต่ละเอกสารอ้างอิงให้ถูกต้องรวมกับไว้ในแฟ้มรายการบรรณานุกรม ซึ่งมักให้มีนามสกุล bib การระบุรูปแบบของบรรณานุให้ใช้รูปแบบที่วารสารกำหนดให้ใช้แฟ้มรูปแบบบรรณานุกรม (นามสกุล bst)
+
+การระบุรูปแบบและแฟ้มรายการบรรณานุกรมอ้างอิงทำได้ดังนี้
+\begin{lstlisting}[numbers=none]
+\bibliographystyle{<bib style name>}
+\bibliography{<bib name>}
+\end{lstlisting}
+
+การใช้ Bib\TeX~นั้น หากใช้โปรแกรมจำพวก IDE ในการสร้างเอกสารต้นฉบับ มักจะมีการเรียก Bib\TeX~ให้โดยอัตโนมัติ อย่างไรก็ตาม หากสั่งเรียงพิมพ์โดยตรง ต้องสั่งเรียงพิมพ์ก่อนหนึ่งครั้งเพื่อสร้างรายการบรรณานุกรม แล้วใช้ Bib\TeX~ เพื่อโยงรายการอ้างอิงเหล่านั้นกับแฟ้มข้อมูลรายการบรรณานุกรม แล้วจึงสั่งเรียงพิมพ์อีกรอบ เพื่อให้แทนค่าแต่ละตำแหน่งของคำสั่ง \textbackslash cite ด้วยข้อมูลบรรณานุกรมในเอกสารผลลัพธ์ให้ถูกต้อง
+
+เช่นจากรูปที่~\ref{Fig:bibtex} สามารถอ้างอิงถึงได้ดังนี้
+\begin{lstlisting}[numbers=none]
+\cite{DBLP:conf/pricai/WanvarieTO10}
+\end{lstlisting}
+และผลลัพธ์ที่ได้เป็นดังนี้ \cite{DBLP:conf/pricai/WanvarieTO10} และ \lstinline|\citep{thaibib}| จะได้ผลลัพธ์เป็น \citep{thaibib}
+
+\section{เอกสารสำหรับอ่านเพิ่มเติม}
+รายละเอียดการใช้ \LaTeX~สามารถอ่านเพิ่มเติมได้ที่
+\begin{itemize}
+	\item \LaTeX~User's Guide and Reference Manual 
+	
+	\url{http://latex-project.org/guides/usrguide.pdf}
+	\item \url{http://www.ctan.org/tex-archive/info/lshort/thai}
+	\item \url{http://en.wikibooks.org/wiki/LaTeX}
+	\item สัญลักษณ์ต่าง ๆ
+	
+	\url{http://www.tex.ac.uk/tex-archive/info/symbols/comprehensive/symbols-a4.pdf}
+	
+	\item ตัวอย่างบทความเมื่อใช้คลาสของ AMS
+	
+	\url{http://www.ams.org/publications/authors/tex/amslatex}
+	
+\end{itemize}
+หรือค้นคว้าเพิ่มเติมได้จากอินเทอร์เน็ต

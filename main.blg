@@ -10,9 +10,10 @@ A level-1 auxiliary file: chapter06-reference.aux
 A level-1 auxiliary file: chapter07-equation.aux
 The style file: alpha.bst
 Database file #1: MathCS.bib
+Warning--I didn't find a database entry for "step:condition_new_flow_4"
 You've used 2 entries,
             2543 wiz_defined-function locations,
-            586 strings with 5656 characters,
+            587 strings with 5681 characters,
 and the built_in function-call counts, 933 in all, are:
 = -- 87
 > -- 41
@@ -51,3 +52,4 @@ warning$ -- 0
 while$ -- 8
 width$ -- 4
 write$ -- 30
+(There was 1 warning)

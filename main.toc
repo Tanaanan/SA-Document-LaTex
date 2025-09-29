@@ -17,24 +17,25 @@
 \contentsline {subsection}{\numberline {2.1.1}คำอธิบาย Buisness Proess เดิม}{7}{subsection.2.1.1}%
 \contentsline {subsection}{\numberline {2.1.2}ปัญหาของ Buisness Process เดิม}{8}{subsection.2.1.2}%
 \contentsline {section}{\numberline {2.2}Buisness Process ใหม่}{8}{section.2.2}%
-\contentsline {chapter}{\chapternumberline {3}โครงสร้างเอกสาร}{9}{chapter.3}%
-\contentsline {section}{\numberline {3.1}โครงสร้างของแฟ้มต้นฉบับ}{9}{section.3.1}%
-\contentsline {section}{\numberline {3.2}การจัดหน้าทั่วไป}{10}{section.3.2}%
-\contentsline {subsection}{\numberline {3.2.1}การใช้รูปแบบเอกสารต่าง ๆ ที่กำหนดไว้แล้ว}{10}{subsection.3.2.1}%
-\contentsline {section}{\numberline {3.3}โครงสร้างเนื้อหาในเอกสาร}{10}{section.3.3}%
-\contentsline {section}{\numberline {3.4}โครงสร้างเนื้อหาในเอกสาร (ต่อ)}{11}{section.3.4}%
-\contentsline {subsection}{\numberline {3.4.1}โครงสร้างหนังสือ}{11}{subsection.3.4.1}%
-\contentsline {chapter}{\chapternumberline {4}การจัดรูปแบบ}{13}{chapter.4}%
-\contentsline {section}{\numberline {4.1}ขนาดและรูปแบบตัวอักษร}{13}{section.4.1}%
-\contentsline {section}{\numberline {4.2}การจัดเรียงข้อความ}{15}{section.4.2}%
-\contentsline {section}{\numberline {4.3}ช่องว่างแบบต่างๆ}{16}{section.4.3}%
-\contentsline {section}{\numberline {4.4}ข้อย่อย}{17}{section.4.4}%
-\contentsline {chapter}{\chapternumberline {5}การแทรกรูปภาพและตาราง}{19}{chapter.5}%
-\contentsline {section}{\numberline {5.1}การแทรกรูปภาพ}{19}{section.5.1}%
-\contentsline {section}{\numberline {5.2}การสร้างตาราง}{21}{section.5.2}%
-\contentsline {chapter}{\chapternumberline {6}การอ้างอิง}{23}{chapter.6}%
-\contentsline {section}{\numberline {6.1}การอ้างอิงภายในเอกสาร}{23}{section.6.1}%
-\contentsline {section}{\numberline {6.2}บรรณานุกรม}{23}{section.6.2}%
-\contentsline {section}{\numberline {6.3}เอกสารสำหรับอ่านเพิ่มเติม}{25}{section.6.3}%
-\contentsline {chapter}{\chapternumberline {7}การแทรกสมการและสัญลักษณ์คณิตศาสตร์}{27}{chapter.7}%
-\contentsline {chapter}{บรรณานุกรม}{29}{chapter*.11}%
+\contentsline {subsection}{\numberline {2.2.1}คำอธิบาย Buisness Process ใหม่}{8}{subsection.2.2.1}%
+\contentsline {chapter}{\chapternumberline {3}โครงสร้างเอกสาร}{11}{chapter.3}%
+\contentsline {section}{\numberline {3.1}โครงสร้างของแฟ้มต้นฉบับ}{11}{section.3.1}%
+\contentsline {section}{\numberline {3.2}การจัดหน้าทั่วไป}{12}{section.3.2}%
+\contentsline {subsection}{\numberline {3.2.1}การใช้รูปแบบเอกสารต่าง ๆ ที่กำหนดไว้แล้ว}{12}{subsection.3.2.1}%
+\contentsline {section}{\numberline {3.3}โครงสร้างเนื้อหาในเอกสาร}{12}{section.3.3}%
+\contentsline {section}{\numberline {3.4}โครงสร้างเนื้อหาในเอกสาร (ต่อ)}{13}{section.3.4}%
+\contentsline {subsection}{\numberline {3.4.1}โครงสร้างหนังสือ}{13}{subsection.3.4.1}%
+\contentsline {chapter}{\chapternumberline {4}การจัดรูปแบบ}{15}{chapter.4}%
+\contentsline {section}{\numberline {4.1}ขนาดและรูปแบบตัวอักษร}{15}{section.4.1}%
+\contentsline {section}{\numberline {4.2}การจัดเรียงข้อความ}{17}{section.4.2}%
+\contentsline {section}{\numberline {4.3}ช่องว่างแบบต่างๆ}{18}{section.4.3}%
+\contentsline {section}{\numberline {4.4}ข้อย่อย}{19}{section.4.4}%
+\contentsline {chapter}{\chapternumberline {5}การแทรกรูปภาพและตาราง}{21}{chapter.5}%
+\contentsline {section}{\numberline {5.1}การแทรกรูปภาพ}{21}{section.5.1}%
+\contentsline {section}{\numberline {5.2}การสร้างตาราง}{23}{section.5.2}%
+\contentsline {chapter}{\chapternumberline {6}การอ้างอิง}{25}{chapter.6}%
+\contentsline {section}{\numberline {6.1}การอ้างอิงภายในเอกสาร}{25}{section.6.1}%
+\contentsline {section}{\numberline {6.2}บรรณานุกรม}{25}{section.6.2}%
+\contentsline {section}{\numberline {6.3}เอกสารสำหรับอ่านเพิ่มเติม}{27}{section.6.3}%
+\contentsline {chapter}{\chapternumberline {7}การแทรกสมการและสัญลักษณ์คณิตศาสตร์}{29}{chapter.7}%
+\contentsline {chapter}{บรรณานุกรม}{31}{chapter*.12}%
